@@ -1,0 +1,491 @@
+*{box-sizing: border-box;}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #E5E5E5;
+}
+
+a{text-decoration: none;}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.settingsKYC__wrap{
+    text-align: center;
+    background: #fff;
+    max-width: 672px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1rem;
+    color: #0F2B46;
+    padding: 0 30px 20px;
+}
+
+.settingsKYC__top{
+    text-align: start;
+
+}
+
+.settingsKYS__handler{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 20px 30px;
+    outline: none;
+}
+
+.settingsKYS__handler-active{
+    color: #F48020;
+    position: relative;
+}
+
+.settingsKYS__handler-active::before{
+    content: '';
+    display: inline-block;
+    background: #F48020;
+    width: 60px;
+    height: 3px;
+    position: absolute;
+    left: 30px;
+    top: 100%;
+}
+
+.settingsKYS__handler:nth-child(1) span::after{
+    content: '';
+    display: inline-block;
+    background: #E5E5E5;
+    width: 1px;
+    height: 40px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+    
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.KYSHandler__form__top{
+    display: grid;
+    gap: 20px 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.KYSHandler__title{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: start;
+    margin: 30px 0;
+}
+
+.KYSHandler__inp{
+    width: 300px;
+    height: 60px;
+    background: #F9F9F9;
+    border: none;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    outline: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #133D65;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+.KYSHandler__inp[type='text']{
+    cursor: auto;
+}
+
+.KYSHandler__inp::placeholder{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #133D65;
+}
+
+.KYSHandler__confirm__btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.KYSHandler__text{
+    background: #366FDD0D;
+    padding: 20px;
+    color: #2261DA;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 40px 0 50px;
+}
+
+.KYSHandler__inp[type='button']{
+    margin-left: auto;
+    background: #2261DA;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.KYSHandler__confirm__num{
+    border: 1px solid #2261DA;
+    text-align: center;
+    color: #133D65;
+    cursor: auto;
+}
+
+.KYSHandler__confirm__num span{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.KYSHandler__inp__pos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.KYSHandler__inp__text{
+    align-self: center;
+}
+
+.KYSHandler__inp__icon{
+    width: 34px;
+    height: 34px;
+    background: #000;
+}
+
+.KYSHandler__inp__img{
+    border-radius: 50%;
+    width:34px;
+    height: 34px;
+}
+
+.farms .settingsKYC__wrap{
+    max-width: 962px;
+    text-align: start;
+}
+
+
+.farmsList__top{
+    display: flex;
+    align-items: center;
+}
+
+.farmList__sort{
+    margin-left: auto;
+}
+
+.formlist__titleLink h3{
+    margin: 30px 0 6px;
+}
+
+.farmList__title__link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #2261DA;
+}
+
+.farmList__sort{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.farmList__icon{
+    transition: .4s;
+}
+
+.farmList__icon{
+    cursor: pointer;
+}
+
+.farmList__icon:nth-child(1){
+    margin-right: 5px;
+}
+
+.farmsList__switcher__wrap{
+    display: flex;
+    align-items: center;
+}
+
+.farmsList__switcher{
+    width: 50px;
+    height: 25px;
+    background: #F8F8F8;
+    border-radius: 25px;
+    transition: .3s;
+}
+
+.farmsList__switcher__circle{
+    width: 17px;
+    height: 17px;
+    display: block;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    top: 4px;
+    left: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: .3s;
+    box-shadow: 0px 2px 6px -4px #000;
+}
+
+.farmsList__switcher-active{
+    background: #F48020;
+}
+
+.farmsList__switcher-active .farmsList__switcher__circle{
+    left: 30px;
+}
+
+.farmsList__switcher__wrap p{
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.simple__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #133D65;
+}
+
+.farmList__live__wrap{
+    background: #F9F9F9;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #133D65;
+    padding: 4px 4px 4px 13px;
+    border-radius: 25px;
+    
+}
+
+.farmList__live__btn{
+    background: #fff;
+    padding: 4px 10px;
+    border: none;
+    box-shadow: 0px 2px 6px -4px #000;
+    border-radius: 25px;
+    margin-left: 4px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    color: #F48020;
+    cursor: pointer;
+}
+
+.farmList__sort__by{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #133D65;
+    background: #F9F9F9;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 4px 15px;
+    margin: 0 0 0 13px;
+}
+
+.farmList__sort__by p{
+    margin: 0 10px 0 0;
+}
+
+.farmList__sort__select{
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 12px;
+    color: #133D65;
+}
+
+.farmsList__list{
+
+    list-style: none;
+    padding: 0;
+}
+
+.farmsList__item{
+    border-bottom: 1px solid #F9F9F9;
+    cursor: pointer;
+    position: relative;
+}
+
+.farmsList__item__top {
+    display: flex;
+    align-items: center;
+}
+
+.farmsList__item__imgs{
+    display: flex;
+    align-items: center;
+}
+
+
+.farmsList__item__start{
+    display: flex;
+    align-items: center;
+}
+
+.farmsList__item__end{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.farmsList__item__icon{
+    width: 22px;
+}
+
+.farmsList__item__name{
+    margin: 0 10px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    color: #133D65;
+}
+
+.farmsList__item__percent{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #133D65;
+    border: 1px solid #045599;
+    border-radius: 10px;
+    padding: 4px 6px;
+}
+
+.farmsList__item__title{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #133D65;
+}
+
+.farmsList__item__option{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    color: #133D65;
+}
+
+.farmsList__item__options{
+    margin: 0 20px;
+}
+
+.farmsList__item__dropDown{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.farmsList__item__down{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.farmsList__item__down__start{
+    display: flex;
+    flex-direction: column;
+}
+
+.farmsList__item__down__link{
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    color: #2261DA;
+}
+
+.farmsList__item__options a{
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 12px;
+    color: #2261DA;
+}
+
+.farmsList__item__down .farmsList__item__options{
+    margin-left: auto;
+}
+
+.farmsList__item__down__btns{
+    /* margin-right: auto; */
+}
+
+.farmsList__item__down__btn{
+    margin: 0 20px;
+    padding: 13px 42px;
+    background: #2261DA;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.disablade{
+    opacity: .5;
+}
+.farmsList__item__down{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    z-index: 1;
+}
+
+.farmsList__item{
+    transition: .3s;
+    transition-timing-function: ease-in;
+}
+
+.farmsList__item-active{
+    background: #F9F9F9;
+    border-radius: 25px;
+    padding: 10px;
+    cursor: auto;
+}
+
+.farmsList__item-active .farmsList__item__down{
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.KYSHandler__inp__icon{
+}
+.KYSHandler__inp__img{
+}
