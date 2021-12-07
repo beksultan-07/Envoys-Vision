@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Envoys-Vision/static/css/main.6d9fec90.chunk.css",
+    "main.js": "/Envoys-Vision/static/js/main.6dc7329d.chunk.js",
+    "main.js.map": "/Envoys-Vision/static/js/main.6dc7329d.chunk.js.map",
+    "runtime-main.js": "/Envoys-Vision/static/js/runtime-main.ba2fceab.js",
+    "runtime-main.js.map": "/Envoys-Vision/static/js/runtime-main.ba2fceab.js.map",
+    "static/js/2.f24acf2c.chunk.js": "/Envoys-Vision/static/js/2.f24acf2c.chunk.js",
+    "static/js/2.f24acf2c.chunk.js.map": "/Envoys-Vision/static/js/2.f24acf2c.chunk.js.map",
+    "index.html": "/Envoys-Vision/index.html",
+    "static/css/main.6d9fec90.chunk.css.map": "/Envoys-Vision/static/css/main.6d9fec90.chunk.css.map",
+    "static/js/2.f24acf2c.chunk.js.LICENSE.txt": "/Envoys-Vision/static/js/2.f24acf2c.chunk.js.LICENSE.txt",
+    "static/media/dropdown_dwn.b4b65832.svg": "/Envoys-Vision/static/media/dropdown_dwn.b4b65832.svg",
+    "static/media/dropdown_up.60600bbd.svg": "/Envoys-Vision/static/media/dropdown_up.60600bbd.svg",
+    "static/media/pasport.f612f623.png": "/Envoys-Vision/static/media/pasport.f612f623.png",
+    "static/media/upload.a0f5dc70.svg": "/Envoys-Vision/static/media/upload.a0f5dc70.svg",
+    "static/media/usdc1.adcbcc67.svg": "/Envoys-Vision/static/media/usdc1.adcbcc67.svg",
+    "static/media/usdc2.310c61ab.svg": "/Envoys-Vision/static/media/usdc2.310c61ab.svg",
+    "static/media/view_list1-active.9aaa2450.svg": "/Envoys-Vision/static/media/view_list1-active.9aaa2450.svg",
+    "static/media/view_list1.56a3fe2d.svg": "/Envoys-Vision/static/media/view_list1.56a3fe2d.svg",
+    "static/media/view_list2-active.056a89bd.svg": "/Envoys-Vision/static/media/view_list2-active.056a89bd.svg",
+    "static/media/view_list2.73fa2b3b.svg": "/Envoys-Vision/static/media/view_list2.73fa2b3b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba2fceab.js",
+    "static/js/2.f24acf2c.chunk.js",
+    "static/css/main.6d9fec90.chunk.css",
+    "static/js/main.6dc7329d.chunk.js"
+  ]
+}
